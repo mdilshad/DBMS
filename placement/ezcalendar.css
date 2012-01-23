@@ -1,0 +1,81 @@
+#EZcalendar {
+	display: none;
+	position: absolute;
+	margin: 0;
+	z-index: 99;
+	background: #005083;
+	color: #fff;
+	/* safer to use fixed font sizes */
+	font: 11px Arial, Helvetica, sans-serif;
+	border: 5px solid #044771;
+}
+#EZcalendar form {
+	margin: 0;
+	padding: 0;
+}
+#EZcalendar table {
+	background: white;
+	border: none;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+#EZcalendar table td, #EZcalendar table th {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+/*tds*/
+#EZcalendar table td a.outsideMonth {
+	background: gray;
+	color: #fff;
+}
+#EZcalendar table td a.today{
+	background: #aaa;
+	color: green;
+}
+#EZcalendar table td a {
+	background: silver;
+	color: #333;
+	display: block;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-decoration: none;
+}
+#EZcalendar table td a:hover {
+	color: #fff;
+	background: red;
+}
+
+#EZcalendar table td#EZcalendar_text {
+	background: #0E649B;
+	text-align: center;
+	width: 80px;
+	height: 20px;
+}
+
+#EZcalendar input {
+	border: none;
+	background: #1C78B2;
+	color: #fff;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#EZcalendar input.left {
+	float: left;
+}
+#EZcalendar input.right {
+	float: right;
+}
+#EZcalendar_table {
+	clear: both;
+}
